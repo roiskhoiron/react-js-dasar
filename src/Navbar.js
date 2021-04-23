@@ -1,13 +1,13 @@
-import React from 'react'
-
 // react function component - cal('rfc')
+/* import React from 'react'
+
 export default function Navbar() {
   return (
     <div>
       <h2>Navbar</h2>
     </div>
   )
-}
+} */
 
 // react class component - cal('rcc')
 /* import React, { Component } from 'react'
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
 } */
 
 // react arrow function component - call ('rafc')
-/* import React from 'react'
+import React from 'react'
 
 export const Navbar = () => {
   return (
@@ -31,8 +31,6 @@ export const Navbar = () => {
       <h2>Navbar</h2>
     </div>
   )
-} 
-
-export default Navbar*/
+}
 
 
