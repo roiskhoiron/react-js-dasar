@@ -25,12 +25,14 @@ export default class Navbar extends Component {
 // react arrow function component - call ('rafc')
 import React from 'react'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div>
       <h2>Navbar</h2>
     </div>
   )
 }
+
+export default Navbar
 
 
