@@ -11,6 +11,7 @@ export default class StateProps extends Component {
     return (
       <div>
         <h2>{this.state.makanan}</h2>
+        <button onClick={()=>this.setState({makanan: 'Soto'})}>Ganti Makanan</button>
       </div>
     )
   }
