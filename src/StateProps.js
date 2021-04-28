@@ -9,7 +9,7 @@ export default class StateProps extends Component {
     }
   }
 
-  setNewFood(new_food) {
+  setNewFood = new_food => {
     this.setState({ makanan: new_food })
   }
 
@@ -18,7 +18,7 @@ export default class StateProps extends Component {
       <div>
         <h2>{this.state.makanan}</h2>
         <button onClick={() => this.setNewFood('Mie Ayam')}>Ganti Makanan</button>
-        <Operan makanan={this.state.makanan}/>
+        <Operan makanan={this.state.makanan} setNewFood={this.setNewFood}/>
       </div>
     )
   }
