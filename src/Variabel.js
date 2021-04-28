@@ -7,18 +7,18 @@ import React from 'react'
 */
 
 
-  /* var harga = 300
-  if (true) {
-    // var harga = 200 // var is redeclare
-    harga = 100
-  } */
+/* var harga = 300
+if (true) {
+  // var harga = 200 // var is redeclare
+  harga = 100
+} */
 
 
-/* let harga = 900
+let harga = 900
 if (true) {
   // let harga = 300 // let tidak mendukung redeclare
   harga = 400 // lebih konsisten dengan block scope
-} */
+}
 
 const Variabel = () => {
   return (
@@ -31,7 +31,6 @@ const Variabel = () => {
       </ul>
 
       <h2>Harga :{harga}</h2>
-
 
     </div>
   )
