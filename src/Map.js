@@ -23,6 +23,9 @@ const makanans = [
   },
 ]
 
+// Reduce untuk menurunkan sifat ke logic
+const total_bayar = makanans.reduce((total_harga, makanan) => total_harga += makanan.harge, 0)
+
 const Map = () => {
   return (
     <div>
@@ -32,6 +35,7 @@ const Map = () => {
           <li>{index+1}. {makanan.nama} - Rp.{makanan.harge}</li>
         ))}
       </ul>
+      <h3>Total harga : {total_bayar}</h3>
 
       <h2>Map Filter</h2>
       <p>Makanan dengan harga lebih dari 11.000: </p>
